@@ -1,2 +1,4 @@
 # Discord-OpenBot
-An open source discord bot.
+
+
+OpenBot is a 100% free, open-source, totally modifiable bot for disocrd
