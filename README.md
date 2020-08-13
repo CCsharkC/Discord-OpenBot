@@ -1,4 +1,4 @@
-# Discord-OpenBot
+# Discord-OpenSBot
 
 
-OpenBot is a 100% free, open-source, totally modifiable bot for disocrd
+OpenSBot is a 100% free, open-source, totally modifiable bot for disocrd
