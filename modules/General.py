@@ -26,7 +26,7 @@ class General(commands.Cog):
     async def prefix(self, ctx, new_prefix):
             """changes the prefix for a server"""
             with open("prefixes.json", "r") as pref:
-                prefixes = json.load(f)
+                prefixes = json.load(pref)
 
             prefixes[str(guild.id)] = new_prefix
 
