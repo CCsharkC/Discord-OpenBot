@@ -36,3 +36,5 @@ async def on_command_error(ctx, error):
 for file in os.listdir("./modules"):
     if file.endswith(".py"):
         bot.load_extension(f"modules.{file[:-3]}")
+
+bot.run("#token")
