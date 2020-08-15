@@ -28,7 +28,7 @@ class General(commands.Cog):
             with open("prefixes.json", "r") as pref:
                 prefixes = json.load(pref)
 
-            prefixes[str(guild.id)] = new_prefix
+            prefixes[str(ctx.guild.id)] = new_prefix
 
             with open("prefixes.json", "w") as pref:
                 json.dump(prefixes, pref)
@@ -45,3 +45,4 @@ class General(commands.Cog):
 
 def setup(bot):
     bot.add_cog(General(bot))
+
