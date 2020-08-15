@@ -28,5 +28,3 @@ async def on_guild_join(guild):
 for file in os.listdir("./modules"):
     if file.endswith(".py"):
         bot.load_extension(f"modules.{file[:-3]}")
-
-bot.run("#token")
